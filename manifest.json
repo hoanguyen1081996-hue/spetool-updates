@@ -1,0 +1,21 @@
+{
+  "repo": "hoanguyen1081996-hue/spetool-updates",
+  "branch": "main",
+  "updatedAt": "2026-11-11T15:05:42.946Z",
+  "server": {
+    "version": "2.1.0",
+    "releasedAt": "2026-11-11T15:04:59.156Z",
+    "downloadPath": "releases/server-patch-latest.zip",
+    "sizeBytes": 1041503,
+    "sha256": "ca45002f8fb61177edd169e3ae0c89db80cdf6cebeb3cc788c6dbcbc9bde88ea",
+    "notes": "• Tích hợp hệ thống Tự Động Cập Nhật OTA trực tiếp từ GitHub (1-Click Tải & Cài đặt, bảo toàn 100% dữ liệu gốc).\n• Nâng cấp kiến trúc video ShopeeHD_v2 3 chế độ (Passthrough 0ms / Lossless Remux bt709 / Studio Master CRF 15, giữ nguyên FPS gốc & truyền đủ vbitrate/abitrate/fps).\n• Bổ sung cơ chế khóa an toàn chống mất API Key khi sập nguồn điện."
+  },
+  "client": {
+    "version": "2.1.0",
+    "releasedAt": "2026-11-11T15:05:14.625Z",
+    "downloadPath": "releases/client-patch-latest.zip",
+    "sizeBytes": 1912640,
+    "sha256": "1e3b02937a79ab82b2a89081fc0004d5f33ac2542d059bef5775426a7194692e",
+    "notes": "• Tích hợp hệ thống Tự Động Cập Nhật OTA trực tiếp từ GitHub (1-Click Tải & Cài đặt, bảo toàn 100% dữ liệu gốc).\n• Nâng cấp kiến trúc video ShopeeHD_v2 3 chế độ (Passthrough 0ms / Lossless Remux bt709 / Studio Master CRF 15, giữ nguyên FPS gốc & truyền đủ vbitrate/abitrate/fps).\n• Bổ sung cơ chế khóa an toàn chống mất API Key khi sập nguồn điện."
+  }
+}
