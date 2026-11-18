@@ -1,14 +1,14 @@
 {
   "repo": "hoanguyen1081996-hue/spetool-updates",
   "branch": "main",
-  "updatedAt": "2026-11-11T15:05:42.946Z",
+  "updatedAt": "2026-11-18T05:56:08.100Z",
   "server": {
-    "version": "2.1.0",
-    "releasedAt": "2026-11-11T15:04:59.156Z",
+    "version": "2.1.1",
+    "releasedAt": "2026-11-18T05:55:49.289Z",
     "downloadPath": "releases/server-patch-latest.zip",
-    "sizeBytes": 1041503,
-    "sha256": "ca45002f8fb61177edd169e3ae0c89db80cdf6cebeb3cc788c6dbcbc9bde88ea",
-    "notes": "• Tích hợp hệ thống Tự Động Cập Nhật OTA trực tiếp từ GitHub (1-Click Tải & Cài đặt, bảo toàn 100% dữ liệu gốc).\n• Nâng cấp kiến trúc video ShopeeHD_v2 3 chế độ (Passthrough 0ms / Lossless Remux bt709 / Studio Master CRF 15, giữ nguyên FPS gốc & truyền đủ vbitrate/abitrate/fps).\n• Bổ sung cơ chế khóa an toàn chống mất API Key khi sập nguồn điện."
+    "sizeBytes": 1147394,
+    "sha256": "7141977a4715a3a216effd049a175ff30d467021a14090a655caaa0ce2b85a50",
+    "notes": "• [KHẨN CẤP BẢO MẬT v2.1.1] Khóa cứng 100% trang quản trị spetool.io.vn & toàn bộ API Admin/Logs/Pool khỏi khách bên ngoài.\\n• Bổ sung trình Khởi Tạo Tài Khoản & Mật Khẩu Admin lần đầu trực tiếp trên Máy Chủ (mã hóa Scrypt + HttpOnly Cookie + Chống dò mật khẩu).\\n• Thêm nút Đổi Tài Khoản / Mật Khẩu & Đăng Xuất trên thanh quản trị (bảo toàn 100% 22 API Key & dữ liệu gốc)."
   },
   "client": {
     "version": "2.1.0",
