@@ -1,13 +1,13 @@
 {
   "repo": "hoanguyen1081996-hue/spetool-updates",
   "branch": "main",
-  "updatedAt": "2026-11-18T05:56:08.100Z",
+  "updatedAt": "2026-11-18T05:59:50.328Z",
   "server": {
     "version": "2.1.1",
-    "releasedAt": "2026-11-18T05:55:49.289Z",
-    "downloadPath": "releases/server-patch-latest.zip",
-    "sizeBytes": 1147394,
-    "sha256": "7141977a4715a3a216effd049a175ff30d467021a14090a655caaa0ce2b85a50",
+    "releasedAt": "2026-11-18T05:59:35.457Z",
+    "downloadPath": "releases/server-patch-v2.1.1.zip",
+    "sizeBytes": 1154678,
+    "sha256": "7ac737ddc54571fad04dcf1c542b96005e93833e746eefde007b9113992db136",
     "notes": "• [KHẨN CẤP BẢO MẬT v2.1.1] Khóa cứng 100% trang quản trị spetool.io.vn & toàn bộ API Admin/Logs/Pool khỏi khách bên ngoài.\\n• Bổ sung trình Khởi Tạo Tài Khoản & Mật Khẩu Admin lần đầu trực tiếp trên Máy Chủ (mã hóa Scrypt + HttpOnly Cookie + Chống dò mật khẩu).\\n• Thêm nút Đổi Tài Khoản / Mật Khẩu & Đăng Xuất trên thanh quản trị (bảo toàn 100% 22 API Key & dữ liệu gốc)."
   },
   "client": {
