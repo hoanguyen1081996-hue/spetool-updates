@@ -1,7 +1,7 @@
 {
   "repo": "hoanguyen1081996-hue/spetool-updates",
   "branch": "main",
-  "updatedAt": "2026-11-18T05:59:50.328Z",
+  "updatedAt": "2026-11-24T16:29:13.408Z",
   "server": {
     "version": "2.1.1",
     "releasedAt": "2026-11-18T05:59:35.457Z",
@@ -11,11 +11,11 @@
     "notes": "• [KHẨN CẤP BẢO MẬT v2.1.1] Khóa cứng 100% trang quản trị spetool.io.vn & toàn bộ API Admin/Logs/Pool khỏi khách bên ngoài.\\n• Bổ sung trình Khởi Tạo Tài Khoản & Mật Khẩu Admin lần đầu trực tiếp trên Máy Chủ (mã hóa Scrypt + HttpOnly Cookie + Chống dò mật khẩu).\\n• Thêm nút Đổi Tài Khoản / Mật Khẩu & Đăng Xuất trên thanh quản trị (bảo toàn 100% 22 API Key & dữ liệu gốc)."
   },
   "client": {
-    "version": "2.1.0",
-    "releasedAt": "2026-11-11T15:05:14.625Z",
-    "downloadPath": "releases/client-patch-latest.zip",
-    "sizeBytes": 1912640,
-    "sha256": "1e3b02937a79ab82b2a89081fc0004d5f33ac2542d059bef5775426a7194692e",
-    "notes": "• Tích hợp hệ thống Tự Động Cập Nhật OTA trực tiếp từ GitHub (1-Click Tải & Cài đặt, bảo toàn 100% dữ liệu gốc).\n• Nâng cấp kiến trúc video ShopeeHD_v2 3 chế độ (Passthrough 0ms / Lossless Remux bt709 / Studio Master CRF 15, giữ nguyên FPS gốc & truyền đủ vbitrate/abitrate/fps).\n• Bổ sung cơ chế khóa an toàn chống mất API Key khi sập nguồn điện."
+    "version": "2.2.0",
+    "releasedAt": "2026-11-24T16:28:35.517Z",
+    "downloadPath": "releases/client-patch-v2.2.0.zip",
+    "sizeBytes": 2219824,
+    "sha256": "32fc70d1fecb3b01f757bd8f0132afe867c5b1ea6f7b4cd912edcbdb753ebcd8",
+    "notes": "• Bổ sung Tab Reup Video Shopee: quét nhiều kênh/link cùng lúc (tối đa 3 kênh song song), lọc lượt xem, tự động bóc caption & 1-6 sản phẩm Affiliate, đẩy thẳng vào Luồng Bắn hoặc xuất Thư mục + Excel.\n• Tích hợp Lõi Làm Mới Video Anti-Fingerprint 10 lớp đa luồng (tối đa 6 luồng FFmpeg, khử trùng MD5/pHash/PCM 100%, chuẩn Studio Master CRF 15 preset fast & tương thích 0ms Passthrough ShopeeHD_v2).\n• Nâng cấp chọn nguồn nét cao nhất (V1080P/V720P H.265/H.264 từ mms_data.extend_formats, chặn tuyệt đối watermark) & tự lọc Cookie quét sống trước khi ký."
   }
 }
