@@ -1,7 +1,7 @@
 {
   "repo": "hoanguyen1081996-hue/spetool-updates",
   "branch": "main",
-  "updatedAt": "2026-11-27T10:40:36.402Z",
+  "updatedAt": "2026-11-27T21:52:57.709Z",
   "server": {
     "version": "2.1.3",
     "releasedAt": "2026-11-27T09:47:53.751Z",
@@ -11,11 +11,11 @@
     "notes": "Server v2.1.3: Them windowsHide: true cho toan bo lenh ADB/Cloudflared va toi uu restart supervisor khi OTA de khong bao gio nhay cua so CMD, giu nguyen sua 418 Reup & Ban Video."
   },
   "client": {
-    "version": "2.2.2",
-    "releasedAt": "2026-11-27T10:40:01.252Z",
-    "downloadPath": "releases/client-patch-v2.2.2.zip",
-    "sizeBytes": 2185768,
-    "sha256": "cd025337c962118210447f99157a6c99c13afb5c6db9a08e1772795269e79fd4",
-    "notes": "Tach chuan 2 che do Reup Shopee: Che do 1 bat buoc xu ly du hinh anh + am thanh 10 lop truoc khi day luong dang; Che do 2 chi tai video goc net cao + xuat Excel chuan Tool Upload (bo re-encode de tai nhanh, phoi hop voi Tool Chen Logo & Giong MP3)."
+    "version": "2.2.3",
+    "releasedAt": "2026-11-27T21:52:20.530Z",
+    "downloadPath": "releases/client-patch-v2.2.3.zip",
+    "sizeBytes": 2239063,
+    "sha256": "0b4538febba31ba733b878e3be71db80bb6370305a5611d622e1705917596a23",
+    "notes": "Fix triet de HTTP 418 (90309999) khi quet kenh Reup qua spetool.io.vn (bao toan 100% Ban Video) & sua loi keo Excel Reup sang bi mat/doi cot Link san pham, ho tro shope.ee/hyperlink/khong tieu de"
   }
 }
