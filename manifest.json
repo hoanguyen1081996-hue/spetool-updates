@@ -1,14 +1,14 @@
 {
   "repo": "hoanguyen1081996-hue/spetool-updates",
   "branch": "main",
-  "updatedAt": "2026-11-24T16:29:13.408Z",
+  "updatedAt": "2026-11-27T09:37:12.067Z",
   "server": {
-    "version": "2.1.1",
-    "releasedAt": "2026-11-18T05:59:35.457Z",
-    "downloadPath": "releases/server-patch-v2.1.1.zip",
-    "sizeBytes": 1154678,
-    "sha256": "7ac737ddc54571fad04dcf1c542b96005e93833e746eefde007b9113992db136",
-    "notes": "• [KHẨN CẤP BẢO MẬT v2.1.1] Khóa cứng 100% trang quản trị spetool.io.vn & toàn bộ API Admin/Logs/Pool khỏi khách bên ngoài.\\n• Bổ sung trình Khởi Tạo Tài Khoản & Mật Khẩu Admin lần đầu trực tiếp trên Máy Chủ (mã hóa Scrypt + HttpOnly Cookie + Chống dò mật khẩu).\\n• Thêm nút Đổi Tài Khoản / Mật Khẩu & Đăng Xuất trên thanh quản trị (bảo toàn 100% 22 API Key & dữ liệu gốc)."
+    "version": "2.1.2",
+    "releasedAt": "2026-11-27T09:36:53.102Z",
+    "downloadPath": "releases/server-patch-v2.1.2.zip",
+    "sizeBytes": 1175776,
+    "sha256": "20a9599156e4538152a091238a107816c8b83699c0557734a941b15cb5bfd2a3",
+    "notes": "Server v2.1.2: Fix HTTP 418 Reup/Timeline khi ky qua 3099 (bo ghi/xoa shopee_session, bo sung getRiskToken(ctx), bao toan 100% logic Ban Video & them don phien cuon chieu 1 may/lan /api/v1/pool/heal)."
   },
   "client": {
     "version": "2.2.0",
