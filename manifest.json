@@ -1,7 +1,7 @@
 {
   "repo": "hoanguyen1081996-hue/spetool-updates",
   "branch": "main",
-  "updatedAt": "2026-11-27T09:37:12.067Z",
+  "updatedAt": "2026-11-27T09:37:52.238Z",
   "server": {
     "version": "2.1.2",
     "releasedAt": "2026-11-27T09:36:53.102Z",
@@ -11,11 +11,11 @@
     "notes": "Server v2.1.2: Fix HTTP 418 Reup/Timeline khi ky qua 3099 (bo ghi/xoa shopee_session, bo sung getRiskToken(ctx), bao toan 100% logic Ban Video & them don phien cuon chieu 1 may/lan /api/v1/pool/heal)."
   },
   "client": {
-    "version": "2.2.0",
-    "releasedAt": "2026-11-24T16:28:35.517Z",
-    "downloadPath": "releases/client-patch-v2.2.0.zip",
-    "sizeBytes": 2219824,
-    "sha256": "32fc70d1fecb3b01f757bd8f0132afe867c5b1ea6f7b4cd912edcbdb753ebcd8",
-    "notes": "• Bổ sung Tab Reup Video Shopee: quét nhiều kênh/link cùng lúc (tối đa 3 kênh song song), lọc lượt xem, tự động bóc caption & 1-6 sản phẩm Affiliate, đẩy thẳng vào Luồng Bắn hoặc xuất Thư mục + Excel.\n• Tích hợp Lõi Làm Mới Video Anti-Fingerprint 10 lớp đa luồng (tối đa 6 luồng FFmpeg, khử trùng MD5/pHash/PCM 100%, chuẩn Studio Master CRF 15 preset fast & tương thích 0ms Passthrough ShopeeHD_v2).\n• Nâng cấp chọn nguồn nét cao nhất (V1080P/V720P H.265/H.264 từ mms_data.extend_formats, chặn tuyệt đối watermark) & tự lọc Cookie quét sống trước khi ký."
+    "version": "2.2.1",
+    "releasedAt": "2026-11-27T09:37:17.282Z",
+    "downloadPath": "releases/client-patch-v2.2.1.zip",
+    "sizeBytes": 2260940,
+    "sha256": "1f4aff25eece720e2aa7e37d34220225a014487de1258b1cef786866bef50a9e",
+    "notes": "Client v2.2.1: Bo sung giai MFR solve-challenge cho Reup cào kenh, hien thi ma loi that (90309999), mo rong quet toi da 120 cookie tranh ket 36 dong het han, giu nguyen 100% Ban Video."
   }
 }
